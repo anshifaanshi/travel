@@ -8,25 +8,24 @@ export default function OurLatestCreation() {
 
   const sectionData = [
     {
-      title: "Prompt engineers",
+      title: "Luxury Getaways",
       description:
-        "Bridging the gap between human intent and machine understanding through expert prompt design.",
-      image:
-        "https://i.postimg.cc/RV84Bsn6/Viaje-de-Graca-com-Milhas.jpg",
+        "Discover handpicked luxury destinations designed for comfort, elegance, and unforgettable experiences.",
+      image: "https://i.postimg.cc/RV84Bsn6/Viaje-de-Graca-com-Milhas.jpg",
       align: "object-center",
     },
     {
-      title: "Data scientists",
+      title: "Adventure Tours",
       description:
-        "Turning data into actionable insights that drive intelligent innovation and growth.",
+        "Explore thrilling adventures across breathtaking landscapes, perfect for travelers who seek excitement.",
       image:
         "https://i.postimg.cc/HWhfcJsn/Australian-Women-Share-What-s-Surprised-Them-Most-About-Traveling-in-America.jpg",
       align: "object-right",
     },
     {
-      title: "Software engineers",
+      title: "International Travel",
       description:
-        "Building scalable and efficient systems that bring ideas to life through code.",
+        "Travel the world with ease through expertly planned international trips and seamless itineraries.",
       image:
         "https://i.postimg.cc/6qygbKz3/Download-Portrait-beautiful-young-asian-woman-travel-and-leisure-with-luggage-bag-and-passport-for-f.jpg",
       align: "object-center",
@@ -47,8 +46,8 @@ export default function OurLatestCreation() {
   return (
     <section className="flex flex-col items-center" id="creations">
       <SectionTitle
-        title="Our latest creation"
-        description="A visual collection of our most recent works - each piece crafted with intention, emotion, and style."
+        title="Explore Our Travel Experiences"
+        description="Carefully curated journeys crafted to inspire, relax, and create lifelong memories."
       />
 
       <div
